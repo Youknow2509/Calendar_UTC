@@ -31,3 +31,11 @@ __pycache__/
 # credentials
 credentials.json
 **/credentials.json
+
+# token
+token.json
+**/token.json
+
+# client secret
+client_secrets.json
+**/client_secrets.json
