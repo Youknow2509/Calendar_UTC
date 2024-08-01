@@ -6,7 +6,7 @@ def writeCredentials(content):
     with open(PATH_CREDENTIALS, 'w') as file:
         file.write(content)
 
-def readCredentials(file_name):
+def readCredentials():
     with open(PATH_CREDENTIALS, 'r') as file:
         content = file.read()
         return content
