@@ -15,3 +15,7 @@ pyvenv.cfg
 # mac os 
 .DS_Store
 **/.DS_Store
+
+# Var envairoment
+.env
+**/.env
