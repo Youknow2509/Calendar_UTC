@@ -1,0 +1,17 @@
+# VM python in mac os
+bin/ 
+**/bin/
+include/
+**/include/
+lib/
+**/lib/
+pyvenv.cfg
+**/pyvenv.cfg
+
+# vs code 
+.vscode/
+**/.vscode/
+
+# mac os 
+.DS_Store
+**/.DS_Store
