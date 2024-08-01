@@ -1,3 +1,3 @@
-from .main import main as GoogleAuth
+from .main import main as google_auth
 
-__all__ = ['GoogleAuth']
+__all__ = ['google_auth']
