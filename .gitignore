@@ -27,3 +27,7 @@ chromedriver*/
 # python cache
 __pycache__/
 **/__pycache__/
+
+# credentials
+credentials.json
+**/credentials.json
