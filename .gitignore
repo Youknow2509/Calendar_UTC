@@ -19,3 +19,11 @@ pyvenv.cfg
 # Var envairoment
 .env
 **/.env
+
+# driver selenium
+chromedriver*/
+**/chromedriver*/
+
+# python cache
+__pycache__/
+**/__pycache__/
