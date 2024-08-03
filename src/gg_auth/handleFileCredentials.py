@@ -1,6 +1,6 @@
 import os 
 
-PATH_CREDENTIALS = os.environ.get('PATH_CREDENTIALS')
+PATH_CREDENTIALS = os.environ.get('PATH_CREDENTIALS', 'src/gg_auth/credentials.json')
 
 def writeCredentials(content):
     with open(PATH_CREDENTIALS, 'w') as file:

@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 from google_auth_oauthlib.flow import Flow
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
@@ -18,7 +17,6 @@ SERVER_THREAD = None
 STOP_SERVER = threading.Event()  # Event to signal server shutdown
 
 def get_var_env():
-    load_dotenv()
     global SCOPES
     global PATH_CREDENTIALS
     global PATH_CLIENT_SECRETS
@@ -29,9 +27,9 @@ def get_var_env():
               'https://www.googleapis.com/auth/calendar.readonly',
               'https://www.googleapis.com/auth/spreadsheets'
               ]
-    PATH_CREDENTIALS = os.getenv('PATH_CREDENTIALS')
-    PATH_CLIENT_SECRETS = os.getenv('PATH_CLIENT_SECRETS')
-    REDIRECT_URI = os.getenv('REDIRECT_URI')
+    PATH_CREDENTIALS = os.getenv('PATH_CREDENTIALS', 'src/gg_auth/credentials.json')
+    PATH_CLIENT_SECRETS = os.getenv('PATH_CLIENT_SECRETS', 'src/gg_auth/client_secrets.json')
+    REDIRECT_URI = os.getenv('REDIRECT_URI', 'http://localhost:3300/oauth2callback')
         
 class OAuth2Handler(BaseHTTPRequestHandler):
     def do_GET(self):
