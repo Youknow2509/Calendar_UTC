@@ -71,5 +71,7 @@ def day_format(data):
         # If input type is not handled, raise an error
         raise ValueError("Unsupported input type")
 
+    result.sort(key=lambda x: list(day_mapping.values()).index(x))
+        
     # Join the result list with commas
     return ','.join(result)
