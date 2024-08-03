@@ -52,3 +52,29 @@ def time_format(data, **kwargs):
     # print('Data after format:', res)
     
     return res
+
+def time_format_until(data, **kwargs):
+    """
+    Format time to YYYYMMDDTHHMMSSZ
+    """
+    iso_date = time_format(data, **kwargs)
+    
+    if iso_date:
+        try:
+            # Parse the ISO 8601 date string to a datetime object
+            # Convert to UTC if necessary
+            if iso_date.endswith('Z'):
+                dt = datetime.fromisoformat(iso_date.replace('Z', '+00:00'))
+            else:
+                dt = datetime.fromisoformat(iso_date)
+                dt = dt.astimezone(pytz.UTC)
+            
+            # Format the datetime object to the desired format
+            formatted_date = dt.strftime("%Y%m%dT%H%M%SZ")
+            return formatted_date
+        
+        except ValueError as e:
+            print(f"Error parsing ISO 8601 date: {e}")
+            return None
+    else:
+        return None
