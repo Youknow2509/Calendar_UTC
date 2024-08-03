@@ -30,3 +30,6 @@
 ```python
 python src/main.py
 ```
+
+# Video Demo:
+- [Video](https://youtu.be/iMb0F-DPomo)
