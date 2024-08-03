@@ -18,11 +18,11 @@ def create_event(**kwargs):
     
     TIME_ZONE = 'Asia/Ho_Chi_Minh'
     
-    title = kwargs.pop('title', 'Title none')
-    location = kwargs.pop('location', 'Location none')
-    description = kwargs.pop('description', 'Description none')
-    start_time = kwargs.pop('start_time', datetime.utcnow().isoformat() + 'Z')
-    end_time = kwargs.pop('end_time', (datetime.utcnow() + timedelta(hours=1)).isoformat() + 'Z')
+    title = kwargs.get('title', 'Title none')
+    location = kwargs.get('location', 'Location none')
+    description = kwargs.get('description', 'Description none')
+    start_time = kwargs.get('start_time', datetime.utcnow().isoformat() + 'Z')
+    end_time = kwargs.get('end_time', (datetime.utcnow() + timedelta(hours=1)).isoformat() + 'Z')
         
     # Format time 
     start_time = time_format(start_time)
