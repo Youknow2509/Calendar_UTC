@@ -1,12 +1,13 @@
 # from get_data import get_data
 from gg_handle import *
-from get_data_in_file import get_data
+# from get_data_in_file import get_data
+from get_data_in_file_2 import get_data
 
 def main():
     """
         Main function
     """
-    # get_data()
+    get_data()
     # get_all_events()
     # create_event(title='Test create event with api')
     
@@ -19,7 +20,7 @@ def main():
 
     # delete_all_events()
     
-    handle_file_create_calendar()
+    # handle_file_create_calendar()
  
 def handle_file_create_calendar():
     """
@@ -41,8 +42,6 @@ def handle_file_create_calendar():
         
         create_event_adv(title=title, description=description, start_time=start_time, end_time=end_time, days=days, until=until)
     
-
-
 if __name__ == "__main__":
     main()
     
