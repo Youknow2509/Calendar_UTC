@@ -1,5 +1,5 @@
-from .create_credentials import readCredentials
 from .create_credentials import create_credentials
+from .handleFileCredentials import readCredentials
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -22,8 +22,10 @@ def get_credentials():
     if not creds:
         create_credentials()
         creds = readCredentials()
-    
+        
+
     creds = Credentials(**json.loads(creds))
+    
     creds.refresh(Request())
         
 def main():

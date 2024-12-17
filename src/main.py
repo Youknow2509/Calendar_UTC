@@ -3,12 +3,16 @@ from gg_handle import *
 # from get_data_in_file import get_data
 from get_data_in_file_2 import get_data
 
+# todo delete
+import re
+
+
 def main():
     """
         Main function
     """
-    get_data()
-    # get_all_events()
+    # get_data()
+    get_all_events()
     # create_event(title='Test create event with api')
     
     # create_event_adv(title='Hệ quản trị cơ sở dữ liệu Oracle-1-1-24(QT01)', 

@@ -4,7 +4,14 @@ import threading
 import urllib.parse as urlparse
 import os
 # Import module
-from .handleFileCredentials import writeCredentials, readCredentials
+# from .handleFileCredentials import writeCredentials, readCredentials
+
+PATH_CREDENTIALS = os.environ.get('PATH_CREDENTIALS', 'src/gg_auth/credentials.json')
+
+def writeCredentials(content):
+    with open(PATH_CREDENTIALS, 'w') as file:
+        file.write(content)
+
 
 # Global variables
 SCOPES = []
@@ -30,7 +37,12 @@ def get_var_env():
     PATH_CREDENTIALS = os.getenv('PATH_CREDENTIALS', 'src/gg_auth/credentials.json')
     PATH_CLIENT_SECRETS = os.getenv('PATH_CLIENT_SECRETS', 'src/gg_auth/client_secrets.json')
     REDIRECT_URI = os.getenv('REDIRECT_URI', 'http://localhost:3300/oauth2callback')
-        
+    # show value globally
+    print('SCOPES: ', SCOPES)
+    print('PATH_CREDENTIALS: ', PATH_CREDENTIALS)
+    print('PATH_CLIENT_SECRETS: ', PATH_CLIENT_SECRETS)
+    print('REDIRECT_URI: ', REDIRECT_URI)
+
 class OAuth2Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         global AUTHORIZATION_CODE
@@ -77,7 +89,8 @@ def create_credentials():
         include_granted_scopes='true'  # Include granted scopes if needed
     )
     
-    print('Please go to this URL: {}\n'.format(authorization_url))
+    print(authorization_url)
+    # print('Please go to this URL: {}\n'.format(authorization_url))
 
     # Wait for the user to authenticate and provide the authorization code
     while AUTHORIZATION_CODE is None:
