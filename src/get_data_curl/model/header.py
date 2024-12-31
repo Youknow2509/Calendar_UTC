@@ -33,3 +33,31 @@ class header:
         # Set user-agent
         self.user_agent = args.get('user-agent', "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
     
+    def toJson(self):
+        # convert to json obj
+        return {
+            "accept": self.accept,
+            "accept_language": self.accept_language,
+            "authorization": self.authorization,
+            "cookie": self.cookie,
+            "priority": self.priority,
+            "referer": self.referer,
+            "sec-ch-ua": self.sec_ch_ua,
+            "sec-ch-ua-mobile": self.sec_ch_ua_mobile,
+            "sec-ch-ua-platform": self.sec_ch_ua_platform,
+            "sec-fetch-dest": self.sec_fetch_dest,
+            "sec-fetch-mode": self.sec_fetch_mode,
+            "sec-fetch-site": self.sec_fetch_site,
+            "sec-gpc": self.sec_gpc,
+            "user-agent": self.user_agent
+        }
+        
+    def get_headers(self) -> str:
+        """
+            -H 'accept: application/json, text/javascript, */*; q=0.01' \
+            -H 'accept-language: en-US,en;q=0.9' \
+            -H 'authorization: @@@@' \
+            -H 'cookie: @@@@' \
+            ...
+        """
+        return ""
