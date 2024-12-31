@@ -12,7 +12,7 @@ def main():
         Main function
     """
     # get_data()
-    get_all_events()
+    # get_all_events()
     # create_event(title='Test create event with api')
     
     # create_event_adv(title='Hệ quản trị cơ sở dữ liệu Oracle-1-1-24(QT01)', 
@@ -24,7 +24,7 @@ def main():
 
     # delete_all_events()
     
-    # handle_file_create_calendar()
+    handle_file_create_calendar()
  
 def handle_file_create_calendar():
     """

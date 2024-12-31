@@ -10,7 +10,7 @@ def main():
     # print('Handle load data from file')
     PATH_FILE_READ_DATE = 'data/data_17_12_24.xlsx'
     # Load the Excel file
-    df = pd.read_excel(PATH_FILE_READ_DATE, sheet_name='data')
+    df = pd.read_excel(PATH_FILE_READ_DATE, sheet_name='data2')
 
     """
         res is list obj

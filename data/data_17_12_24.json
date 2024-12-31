@@ -4,199 +4,239 @@
         "description": "503-A8",
         "start_time": "30-12-2024 07:00:00",
         "end_time": "30-12-2024 09:25:00",
-        "days": "MO",
-        "until": "19-01-2025"
+        "days": ["MO"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "An toàn và bảo mật thông tin-1-2-24(QT(TA)01)",
         "description": "503-A8",
         "start_time": "10-02-2025 07:00:00",
         "end_time": "10-02-2025 09:25:00",
-        "days": "MO",
-        "until": "02-03-2025"
+        "days": ["MO"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "An toàn và bảo mật thông tin-1-2-24(QT(TA)01.BT1)",
         "description": "503-A8",
         "start_time": "03-03-2025 07:00:00",
         "end_time": "03-03-2025 09:25:00",
-        "days": "MO",
-        "until": "06-04-2025"
+        "days": ["MO"],
+        "until": "06-04-2025 00:00:00"
     },
     {
         "title": "Hệ điều hành Unix-1-2-24(QT01)",
         "description": "504-A8",
         "start_time": "30-12-2024 09:35:00",
         "end_time": "30-12-2024 12:00:00",
-        "days": "TH",
-        "until": "19-01-2025"
+        "days": ["TH"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Hệ điều hành Unix-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "10-02-2025 09:35:00",
         "end_time": "10-02-2025 12:00:00",
-        "days": "TH",
-        "until": "02-03-2025"
+        "days": ["TH"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "30-12-2024 07:00:00",
         "end_time": "30-12-2024 09:25:00",
-        "days": "SA",
-        "until": "05-01-2025"
+        "days": ["SA"],
+        "until": "05-01-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01)",
         "description": "504-A8",
         "start_time": "06-01-2025 07:00:00",
         "end_time": "06-01-2025 09:25:00",
-        "days": "WE",
-        "until": "19-01-2025"
+        "days": ["WE"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "06-01-2025 07:00:00",
         "end_time": "06-01-2025 09:25:00",
-        "days": "SA",
-        "until": "19-01-2025"
+        "days": ["SA"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "10-02-2025 07:00:00",
         "end_time": "10-02-2025 09:25:00",
-        "days": "WE",
-        "until": "02-03-2025"
+        "days": ["WE"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "10-02-2025 07:00:00",
         "end_time": "10-02-2025 09:25:00",
-        "days": "SA",
-        "until": "02-03-2025"
+        "days": ["SA"],
+        "until": "02-03-2025 00:00:00"
+    },
+    {
+        "title": "Lập trình thiết bị di động-1-2-24(QT(TA)02)",
+        "description": "503-A8",
+        "start_time": "30-12-2024 07:00:00",
+        "end_time": "30-12-2024 09:25:00",
+        "days": ["TU"],
+        "until": "19-01-2025 00:00:00"
+    },
+    {
+        "title": "Lập trình thiết bị di động-1-2-24(QT(TA)02)",
+        "description": "503-A8",
+        "start_time": "10-02-2025 07:00:00",
+        "end_time": "10-02-2025 09:25:00",
+        "days": ["TU"],
+        "until": "02-03-2025 00:00:00"
+    },
+    {
+        "title": "Lập trình thiết bị di động-1-2-24(QT(TA)02)",
+        "description": "503-A8",
+        "start_time": "10-02-2025 07:00:00",
+        "end_time": "10-02-2025 09:25:00",
+        "days": ["FR"],
+        "until": "02-03-2025 00:00:00"
+    },
+    {
+        "title": "Lập trình thiết bị di động-1-2-24(QT(TA)02)",
+        "description": "503-A8",
+        "start_time": "03-03-2025 07:00:00",
+        "end_time": "03-03-2025 09:25:00",
+        "days": ["TU"],
+        "until": "16-03-2025 00:00:00"
+    },
+    {
+        "title": "Lập trình thiết bị di động-1-2-24(QT(TA)02.BT1)",
+        "description": "504-A8",
+        "start_time": "17-03-2025 07:00:00",
+        "end_time": "17-03-2025 09:25:00",
+        "days": ["TU"],
+        "until": "27-04-2025 00:00:00"
     },
     {
         "title": "Lập trình API-1-2-24(QT01.BT1)",
         "description": "503-A8",
         "start_time": "03-03-2025 07:00:00",
         "end_time": "03-03-2025 09:25:00",
-        "days": "WE",
-        "until": "13-04-2025"
+        "days": ["WE"],
+        "until": "13-04-2025 00:00:00"
     },
     {
         "title": "Pháp luật đại cương-1-2-24(QT07)",
         "description": "Phòng trực tuyến",
         "start_time": "30-12-2024 15:35:00",
         "end_time": "30-12-2024 18:00:00",
-        "days": "TH",
-        "until": "19-01-2025"
+        "days": ["TH"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Pháp luật đại cương-1-2-24(QT07)",
         "description": "Phòng trực tuyến",
         "start_time": "10-02-2025 15:35:00",
         "end_time": "10-02-2025 18:00:00",
-        "days": "TH",
-        "until": "23-02-2025"
+        "days": ["TH"],
+        "until": "23-02-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "30-12-2024 09:35:00",
         "end_time": "30-12-2024 12:00:00",
-        "days": "MO",
-        "until": "19-01-2025"
+        "days": ["MO"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "10-02-2025 09:35:00",
         "end_time": "10-02-2025 12:00:00",
-        "days": "MO",
-        "until": "02-03-2025"
+        "days": ["MO"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "10-02-2025 09:35:00",
         "end_time": "10-02-2025 12:00:00",
-        "days": "WE",
-        "until": "02-03-2025"
+        "days": ["WE"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01)",
         "description": "503-A8",
         "start_time": "03-03-2025 09:35:00",
         "end_time": "03-03-2025 12:00:00",
-        "days": "MO",
-        "until": "16-03-2025"
+        "days": ["MO"],
+        "until": "16-03-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01.BT1)",
         "description": "503-A8",
         "start_time": "17-03-2025 09:35:00",
         "end_time": "17-03-2025 12:00:00",
-        "days": "MO",
-        "until": "06-04-2025"
+        "days": ["MO"],
+        "until": "06-04-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01.BT1)",
         "description": "503-A8",
         "start_time": "14-04-2025 09:35:00",
         "end_time": "14-04-2025 12:00:00",
-        "days": "MO",
-        "until": "27-04-2025"
+        "days": ["MO"],
+        "until": "27-04-2025 00:00:00"
     },
     {
         "title": "Phân tích thiết kế hướng đối tượng-1-2-24(QT01.BT1)",
         "description": "Phòng trực tuyến ",
         "start_time": "28-04-2025 09:35:00",
         "end_time": "28-04-2025 12:00:00",
-        "days": "MO",
-        "until": "04-05-2025"
+        "days": ["MO"],
+        "until": "04-05-2025 00:00:00"
     },
     {
         "title": "Trí thuệ nhân tạo-1-2-24(QT(TA)01)",
         "description": "503-A8",
         "start_time": "30-12-2024 09:35:00",
         "end_time": "30-12-2024 12:00:00",
-        "days": "TU",
-        "until": "19-01-2025"
+        "days": ["TU"],
+        "until": "19-01-2025 00:00:00"
     },
     {
         "title": "Trí thuệ nhân tạo-1-2-24(QT(TA)01)",
         "description": "503-A8",
         "start_time": "10-02-2025 09:35:00",
         "end_time": "10-02-2025 12:00:00",
-        "days": "TU",
-        "until": "02-03-2025"
+        "days": ["TU"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Trí thuệ nhân tạo-1-2-24(QT(TA)01)",
         "description": "503-A8",
         "start_time": "10-02-2025 09:35:00",
         "end_time": "10-02-2025 12:00:00",
-        "days": "FR",
-        "until": "02-03-2025"
+        "days": ["FR"],
+        "until": "02-03-2025 00:00:00"
     },
     {
         "title": "Trí thuệ nhân tạo-1-2-24(QT(TA)01)",
         "description": "503-A8",
         "start_time": "03-03-2025 09:35:00",
         "end_time": "03-03-2025 12:00:00",
-        "days": "TU",
-        "until": "16-03-2025"
+        "days": ["TU"],
+        "until": "16-03-2025 00:00:00"
     },
     {
         "title": "Trí thuệ nhân tạo-1-2-24(QT(TA)01.BT1)",
         "description": "503-A8",
         "start_time": "17-03-2025 09:35:00",
         "end_time": "17-03-2025 12:00:00",
-        "days": "TU",
-        "until": "27-04-2025"
+        "days": ["TU"],
+        "until": "27-04-2025 00:00:00"
     }
 ]
