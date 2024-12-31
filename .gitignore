@@ -39,3 +39,6 @@ token.json
 # client secret
 client_secrets.json
 **/client_secrets.json
+
+# header curl
+**/header.json
