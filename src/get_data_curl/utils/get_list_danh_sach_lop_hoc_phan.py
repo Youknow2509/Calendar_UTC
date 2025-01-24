@@ -8,8 +8,10 @@ def get_list_danh_sach_lop_hoc_phan():
         Get danh sach lop hoc phan
     """
     name_file = "ds_lhp.json"
-    file_path = os.path.join(os.path.dirname(__file__), ".." ,name_file)
+    file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', name_file))
 
+    # print("file path: ", file_path)
+    
     # Open the JSON file and read its contents
     try:
         with open(file_path, 'r') as file:
@@ -18,6 +20,7 @@ def get_list_danh_sach_lop_hoc_phan():
             for lop_hoc_phan_json in data:
                 # print(lop_hoc_phan_json)
                 lhp_obj = lop_hoc_phan(**lop_hoc_phan_json)
+                # print(lhp_obj)
                 list_lop_hoc_phan.append(lhp_obj)
                 
     except FileNotFoundError:
